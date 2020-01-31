@@ -1,0 +1,78 @@
+CEC CS 18 c07
+Alka Anna Sabu
+
+--------------------------------
+#1: grep  commands
+---------------------------------
+Command/Shell script/Program name
+
+grep -o alka work.txt---------------------------
+
+Input: work.txt
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+alka
+alka
+-------------------
+Remarks if any:grep is to search a particular item
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2: sort commands
+---------------------------------
+Command/Shell script/Program name
+
+sort abc.txt---------------------------
+
+Input: abc.txt	
+
+
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+   sorted .txtma
+	
+-------------------
+Remarks if any:
+sort is used to sort the data
+
+#3: cut commands
+---------------------------------
+Command/Shell script/Program name
+
+cut -b 1-3 abc.txt---------------------------
+
+Input: abc.txt
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+	de
+	ju
+	oc
+	ap
+	fe
+	ma
+	au
+	ju
+	se
+	no
+-------------------
+Remarks if any:
+ct is uesd to cut
+#4:
+
+#5:
+
+

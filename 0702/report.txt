@@ -1,0 +1,77 @@
+CEC CS 18 c07
+Alka Anna Sabu
+
+--------------------------------
+#1: Networking task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------------------------
+     ifconfig -a
+     route -n
+     route add default gw 192.168.0.20
+     ping 192.168.0.1
+     cat /etc/resolv.conf
+     iwconfig
+     echo "nameserver 1.1.1.1'>>resolv.conf
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+      
+	# ifconfig -a displays all available network interfaces
+	
+	# route -n displays kernal routing table
+	
+	# route add, is used add a new route to the table,
+	# route add default gw 192.168.0.2, a default gateway in this case
+        # ping 192.168.0.20,assess the time it takes to send and receive a response from  the network
+        # no wireless connection 
+	# echo "nameserver 1.1.1.1" >> /etc/resolv.conf,to add 1.1.1.1 (1.1.1.1 is the DNS of Cloudflare) to system domain resolver           
+          configuration
+        
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:ftp usage
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------------------------
+      sftP cs18C07@192.168.0.30
+      put pqr.txt
+      lcd
+      lpwd
+      wm pqr.txt
+      quit 
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+      
+	 # sftp cs18c07@192.168.0.30, connect to host 192.168.0.30 via sftp
+
+	# put.txt, upload put.txt
+
+	# lcd .., change local directory 
+
+	# lpwd, show local present working directory
+
+        # rm pqr.txt, remove pqr.txt from host
+
+	# quit, quit current ftp session
+
+        
+-------------------
+
+
+
+

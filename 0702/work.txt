@@ -1,0 +1,123 @@
+Script started on Friday 07 February 2020 10:17:58 AM IST
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ [K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ ifconfig -a
+ens34     Link encap:Ethernet  HWaddr 10:78:d2:3e:20:18  
+          inet addr:192.168.0.82  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::a8ec:a7bf:1118:f5fc/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:97730 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15195 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:32402739 (32.4 MB)  TX bytes:1920225 (1.9 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:131 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:131 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:9624 (9.6 KB)  TX bytes:9624 (9.6 KB)
+
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 ens34
+192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 ens34
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ route add defalt gw 192.168.0.2 0[K[A]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ route add defalt gw 192.168.0.20
+defalt: Host name lookup failure
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ sudo n[Kroute defai[Kult gw 192.168.0.2 0[K[A]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ sudo route default gw 192.168.0.20q[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kroute add defalt gw 192.168.0.20
+defalt: Host name lookup failure
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ route add defalt gw 192.168.0.20[K[K30
+defalt: Host name lookup failure
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ [K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ pimg 192.168.0.1[1P[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_seq=1 ttl=64 time=9.77 ms
+64 bytes from 192.168.0.1: icmp_seq=2 ttl=64 time=3.32 ms
+64 bytes from 192.168.0.1: icmp_seq=3 ttl=64 time=2.65 ms
+64 bytes from 192.168.0.1: icmp_seq=4 ttl=64 time=11.1 ms
+64 bytes from 192.168.0.1: icmp_seq=5 ttl=64 time=19.9 ms
+64 bytes from 192.168.0.1: icmp_seq=6 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=7 ttl=64 time=2.49 ms
+64 bytes from 192.168.0.1: icmp_seq=8 ttl=64 time=16.4 ms
+64 bytes from 192.168.0.1: icmp_seq=9 ttl=64 time=2.72 ms
+64 bytes from 192.168.0.1: icmp_seq=10 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=11 ttl=64 time=2.47 ms
+64 bytes from 192.168.0.1: icmp_seq=12 ttl=64 time=2.49 ms
+64 bytes from 192.168.0.1: icmp_seq=13 ttl=64 time=2.45 ms
+64 bytes from 192.168.0.1: icmp_seq=14 ttl=64 time=2.46 ms
+64 bytes from 192.168.0.1: icmp_seq=15 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=16 ttl=64 time=2.61 ms
+64 bytes from 192.168.0.1: icmp_seq=17 ttl=64 time=2.46 ms
+64 bytes from 192.168.0.1: icmp_seq=18 ttl=64 time=2.48 ms
+64 bytes from 192.168.0.1: icmp_seq=19 ttl=64 time=2.49 ms
+64 bytes from 192.168.0.1: icmp_seq=20 ttl=64 time=2.43 ms
+64 bytes from 192.168.0.1: icmp_seq=21 ttl=64 time=2.49 ms
+^C
+--- 192.168.0.1 ping statistics ---
+21 packets transmitted, 21 received, 0% packet loss, time 20031ms
+rtt min/avg/max/mdev = 2.430/4.805/19.917/4.950 ms
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ cat/[K /etc.[K/ew[K[Kresolve.conf
+cat: /etc/resolve.conf: No such file or directory
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ echo "nameserver 12[K.1.1.1">>resolve [K[A]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ echo "nameserver 1.1.1.1">>resolve,conf
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ echo "nameserver 1.1.1.1">>resolve,conf
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ echo "nameserver 1.1.1.1">>resolve,conf[K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ echo "nameserver 1.1.1.1">>resolve,conf[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat /etc/resolve.conf[5Pping 192.168.0.1route add defalt gw 192.168.0.3020-n[Kifconfig -asftp cs18c37@192.168.0.30[14Pifconfig -asftp cs18c37@192.168.0.30[14Pifconfig -a[K[K
+ens34     Link encap:Ethernet  HWaddr 10:78:d2:3e:20:18  
+          inet addr:192.168.0.82  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::a8ec:a7bf:1118:f5fc/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:188858 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:31471 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:55219870 (55.2 MB)  TX bytes:4490030 (4.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:155 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:155 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:11016 (11.0 KB)  TX bytes:11016 (11.0 KB)
+
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ ifconfig [Kcat /etc/resolve.conf[5Pping 192.168.0.1route add defalt gw 192.168.0.3020-n[Kifconfig -a[K[K[C[1P[1@w
+ens34     no wireless extensions.
+
+lo        no wireless extensions.
+
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ ifdown
+ifdown: no interface(s) specified
+ifdown: Use --help for help
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ [K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ exit
+exit
+
+Script done on Friday 07 February 2020 11:06:24 AM IST
+Script started on Friday 07 February 2020 11:34:28 AM IST
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ exitifdownwconfig f[C[C[C[C[C[C[Ccat /etc/resolve.conf[5Pping 192.168.0.1route add defalt gw 192.168.0.3020-n[Kifconfig -asftp cs18c37@192.168.0.30[K[K cs18c37@192.168.0.30[Kexit scriptrsync -av abc.txtscp abc.txt cs18c37@192.168.0.30:0302[20Prsync -av abc.txt[6Pexit script[6Psftp cs18c37@192.168.0.30[K cs18c37@192.168.0.30[14Pifconfig -a[3Proute -nadd defalt gw 192.168.0.2030[16Pping 192.168.0.1cat /etc/resolve.conf[12Pifconfig w[C[C[C[C[C[C[C[3Pfdown[2Pexitifdownwconfig f[C[C[C[C[C[C[Ccat /etc/resolve.conf[5Pping 192.168.0.1route add defalt gw 192.168.0.3020-n[Kifconfig -asftp cs18c37@192.168.0.30[K[K cs18c37@192.168.0.30[Kexit scriptrsync -av abc.txtscp abc.txt cs18c37@192.168.0.30:0302 : 0302cat>abc.txt[Kssh cs18c37@192.168.0.30[4Pcat /etc/resolv.conf[4Pping 192.168.0.2[16@route add default gw[C[C[C[C[C[C[C[C[C[C[C[C-n[K[Kifconfig -a[Kscript work.txt[8Pcd 0302cs232eccs18c37at/etc/resolv.conf[2Pping 192.168.1.10[16@route add default gw[C[C[C[C[C[C[C[C[C[C[C[C[C-n[Kifconfig -a[K[1Pcd 0302[3@mkdir[C[C[C[C[C[2Pcd cs232eccs18c37sftp cs18c37@192.168.0.30[16Pexit 2701cd ceccs18c37sftp cs18c37@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ echo "nameserver 1.1.1.1">>[K[K[K'>>resolve.conf
+> ^C
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ echo "nameserver 1.1.1.1'>>resolve.conf[1P>>resolve.conf">>resolve.conf
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ echo "nameserver 1.1.1.1">>resolve.conf[C[1P.conf
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ echo "nameserver 1.1.1.1">>resolv.conf
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ sftp ceccs[K[K[K[K[Kcs18c07@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c07@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+3101                examples.desktop    
+sftp> put xyz.txt
+Uploading xyz.txt to /home/cs18c07/xyz.txt
+xyz.txt                                                              100%    0     0.0KB/s   00:00    
+sftp> lcd
+You must specify a path after a lcd command.
+sftp> lpwd
+Local working directory: /home/s4c1/ceccs18c07/cs232/0702
+sftp> wm[K[Krm xyz,[K.txt
+Removing /home/cs18c07/xyz.txt
+sftp> quit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/0702[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/0702[00m$ exit
+exit
+
+Script done on Friday 07 February 2020 11:50:35 AM IST

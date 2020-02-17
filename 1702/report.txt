@@ -1,0 +1,48 @@
+CEC CS 18 c07
+Alka Anna Sabu
+
+--------------------------------
+#1: Netwrking task
+---------------------------------
+Command/Shell script/Program name
+ssh,rsync,scp
+---------------------------------
+Input: (If relevant)
+---------------
+ssh cs18c07@192.168.0.30
+   #touch aa.txt
+   #rm aa.txt
+   #mkdir xyz
+
+rsync -a 1702 cs18c07@192.168.0.30:xyz
+   #ls
+
+scp abc.txt cs18c07@192.168.0.30:xyz
+   
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+ssh cs18c07@192.168.0.30    ,is used to acces secured connection to remort access
+
+rsync -a 1702 cs18c07@192.168.0.30:xyz   ,to sink the file 1702 in xyz
+
+scp abc.txt cs18c07@192.168.0.30:xyz    ,it is used to upload a file abc in the directory 1702 to directory xyz
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+

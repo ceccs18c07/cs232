@@ -1,0 +1,64 @@
+CEC CS 18 c07
+Alka Anna Sabu
+
+--------------------------------
+#1: SCRIPTING TASK
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	script.sh
+
+Input: 
+---------------
+
+	# result downloaded from ktu site
+	result_CHN1.pdf
+        result_CHN2.pdf 
+
+	# student details file containing roll number 
+	 student1.txt
+         student2.txt
+
+
+--------------------------------
+Output: 
+
+	# file with cgpa/count of subjects student failed in 
+	cgpa1.txt(For s1)
+        cgpa2.txt(For s2)
+
+
+-------------------
+Remarks if any:
+
+	
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#2: Create own web page at our server (t9)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+
+	# To put the page to the server
+	sftp
+		
+
+--------------------------------
+Output: 
+
+	# The page can be viewed at
+	http://192.168.0.30/cs18c/cs18c07
+
+-------------------
+Remarks if any:
+	
+
+

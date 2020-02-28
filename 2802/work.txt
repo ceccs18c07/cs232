@@ -1,0 +1,627 @@
+Script started on Friday 28 February 2020 10:02:39 AM IST
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ sftp cs18c07@192.168.0,[K.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ sftp cs18c@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ sftp cs18c@192.168.0.300@192.168.0.307@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ sftp cs18c07@192.168.0.30
+^C]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ 
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ sftp cs18c07@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: Connection timed out
+Couldn't read packet: Connection reset by peer
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ sftp cs18c07@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: Connection timed out
+Couldn't read packet: Connection reset by peer
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ sftp cs18c07@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: Connection timed out
+Couldn't read packet: Connection reset by peer
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ [K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ ifconfig
+ens34     Link encap:Ethernet  HWaddr 10:78:d2:3e:20:18  
+          inet addr:192.168.1.28  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::35ee:7722:e34d:c276/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:194422 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11331 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:28699235 (28.6 MB)  TX bytes:1787997 (1.7 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:242 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:242 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:16480 (16.4 KB)  TX bytes:16480 (16.4 KB)
+
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ ifcomfid[Kg[K[K[K[Knfig
+ens34     Link encap:Ethernet  HWaddr 10:78:d2:3e:20:18  
+          inet addr:192.168.1.28  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::35ee:7722:e34d:c276/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:201013 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11338 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:29162224 (29.1 MB)  TX bytes:1788759 (1.7 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:242 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:242 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:16480 (16.4 KB)  TX bytes:16480 (16.4 KB)
+
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ ss [Kh ask@192.168.0.30
+^C
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ ssh ask@192.168.0.30[12Pifconfigsftp cs18c07@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c07@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0702                1702                3101                examples.desktop    sample              xyz                 
+sftp> cd 0702
+sftp> ls
+report.txt    resolve.conf  work.txt      xyz.txt       
+sftp> cd ..
+sftp> put index,htmlhtml[K.htmlhtml
+Uploading index.html to /home/cs18c07/index.html
+index.html                                                                                                     0%    0     0.0KB/s   --:-- ETAindex.html                                                                                                   100% 2600     2.5KB/s   00:00    
+sftp> exit\[K[K[K[K[Kb[Kexit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ [K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ sftp cs18c07@192.168.0.30[5Psh ask@192.168.0.30[12Pifconfigssh ask@192.168.0.30ftp cs18c07@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c07@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0702                1702                3101                examples.desktop    
+index.html          sample              xyz                 
+sftp> cd 0201[K[K[K702=702702[K702[K1702
+sftp> ls
+abc.txt      report.txt   work.txt     
+sftp> get wi[Kir[K[K[K[K[K[Kexit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ sftp cs18c07@192.168.0.30[5Psh ask@192.168.0.30ftp cs18c07@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c07@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> rm index.html
+Removing /home/cs18c07/index.html
+sftp> put index.html
+Uploading index.html to /home/cs18c07/index.html
+index.html                                      0%    0     0.0KB/s   --:-- ETAindex.html                                    100% 2602     2.5KB/s   00:00    
+sftp> exit
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ mkdir s1
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ cd s1
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ cat>student
+^C
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ cat >studen[K[K[K[K[K[K[K[K[K[K[K[K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ pdftotext layout result_CM[KHN(1) result_CHN(1)
+bash: syntax error near unexpected token `('
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ pdftotext layout result_CHN(1) result_CHN(1). result_CHN(1)p result_CHN(1)d result_CHN(1)f result_CHN(1)[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt
+bash: syntax error near unexpected token `('
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ pdftotext layout result_CHN(1).pdf result_CHN(1).txt[C[1P).txt[C[1P.txt[1P.txt1.txt[1P[1P[1P[1@1
+pdftotext version 0.41.0
+Copyright 2005-2016 The Poppler Developers - http://poppler.freedesktop.org
+Copyright 1996-2011 Glyph & Cog, LLC
+Usage: pdftotext [options] <PDF-file> [<text-file>]
+  -f <int>             : first page to convert
+  -l <int>             : last page to convert
+  -r <fp>              : resolution, in DPI (default is 72)
+  -x <int>             : x-coordinate of the crop area top left corner
+  -y <int>             : y-coordinate of the crop area top left corner
+  -W <int>             : width of crop area in pixels (default is 0)
+  -H <int>             : height of crop area in pixels (default is 0)
+  -layout              : maintain original physical layout
+  -fixed <fp>          : assume fixed-pitch (or tabular) text
+  -raw                 : keep strings in content stream order
+  -htmlmeta            : generate a simple HTML file, including the meta information
+  -enc <string>        : output text encoding name
+  -listenc             : list available encodings
+  -eol <string>        : output end-of-line convention (unix, dos, or mac)
+  -nopgbrk             : don't insert page breaks between pages
+  -bbox                : output bounding box for each word and page size to html.  Sets -htmlmeta
+  -bbox-layout         : like -bbox but with extra layout bounding box data.  Sets -htmlmeta
+  -opw <string>        : owner password (for encrypted files)
+  -upw <string>        : user password (for encrypted files)
+  -q                   : don't print any messages or errors
+  -v                   : print copyright and version info
+  -h                   : print usage information
+  -help                : print usage information
+  --help               : print usage information
+  -?                   : print usage information
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ pdftotext layout result_CHN1.pdf result_CHN1.txt
+pdftotext version 0.41.0
+Copyright 2005-2016 The Poppler Developers - http://poppler.freedesktop.org
+Copyright 1996-2011 Glyph & Cog, LLC
+Usage: pdftotext [options] <PDF-file> [<text-file>]
+  -f <int>             : first page to convert
+  -l <int>             : last page to convert
+  -r <fp>              : resolution, in DPI (default is 72)
+  -x <int>             : x-coordinate of the crop area top left corner
+  -y <int>             : y-coordinate of the crop area top left corner
+  -W <int>             : width of crop area in pixels (default is 0)
+  -H <int>             : height of crop area in pixels (default is 0)
+  -layout              : maintain original physical layout
+  -fixed <fp>          : assume fixed-pitch (or tabular) text
+  -raw                 : keep strings in content stream order
+  -htmlmeta            : generate a simple HTML file, including the meta information
+  -enc <string>        : output text encoding name
+  -listenc             : list available encodings
+  -eol <string>        : output end-of-line convention (unix, dos, or mac)
+  -nopgbrk             : don't insert page breaks between pages
+  -bbox                : output bounding box for each word and page size to html.  Sets -htmlmeta
+  -bbox-layout         : like -bbox but with extra layout bounding box data.  Sets -htmlmeta
+  -opw <string>        : owner password (for encrypted files)
+  -upw <string>        : user password (for encrypted files)
+  -q                   : don't print any messages or errors
+  -v                   : print copyright and version info
+  -h                   : print usage information
+  -help                : print usage information
+  --help               : print usage information
+  -?                   : print usage information
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ pdftotext layout result_CHN1.pdf result_CHN1.txt[1@-
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ nanao[K[Koscript.sh
+nanoscript.sh: command not found
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ nanoscript.sh script.sh[C[C[C[C
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;66H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: script.sh                                                                             [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[1;134H(B[0;7mModified[3;9H(B[msum [32m=[39m(B[m 0[4;9Hflag [32m=[39m(B[m 0[5;9Hfails [32m=[39m(B[m 0[6;9H[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[7;9H{[39m[42m       [8d[49m[32mif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[39m[42m [9;17H[49m[32m{[10;25H[39m(B[mflag [32m=[39m(B[m 1[11;25Hfails [32m=[39m(B[m fails + 1[12;17H[32m}[13d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[14;9H(B[0m[32m}[15d[39m(B[mcgpa [32m=[39m(B[m sum/9[16;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[39m[42m        [17;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[18;9H}[19dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[20;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[21;9H}[22d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[26d[36m# adds name and roll no[27d[39m(B[mjoin students.txt  cgpa_raw.txt [32m>[39m(B[m cgpa.txt[29d[36m# Removes temperory files used to process[30d(B[0;1m[34mrm[39m(B[m result.txt[31d(B[0;1m[34mrm[39m(B[m result_cs.txt[32d(B[0;1m[34mrm[39m(B[m result_na.txt[33d(B[0;1m[34mrm[39m(B[m result_nn.txt[34d(B[0;1m[34mrm[39m(B[m gp.txt[35d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[41d[K[35;16H[?25l[41;57H(B[0;7m[ XOFF ignored, mumble mumble ][35;16H(B[m[?12l[?25h[41d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                   [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [43;16H (B[0;7m^C(B[m Cancel[K[41;62H(B[0;7mFile Name to Write: script.sh                               [42d^G(B[m Get Help[42;29H(B[0;7mM-D(B[m DOS Format[42;57H(B[0;7mM-A(B[m Append[42;85H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G            (B[0;7mM-M(B[m Mac Format[43;57H(B[0;7mM-P(B[m Prepend[43;85H(B[0;7m^T(B[m To Files[41;30H[?25l[41;62H[39;49m(B[m[1K (B[0;7m[ Wrote 71 lines ](B[m[K[35;16H[41d[J[1;134H(B[0;7m        [43;143H(B[m[43;1H[?12l[?25h[?1049l[?1l>]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ nano script.sh[1Pscript.sh script.sh
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;64H(B[0;7m[ Reading File ][3d(B[m[41;70H(B[0;7m 71 lines ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: script.sh                                                                             [3;1H(B[0m[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout result_CHN.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17d(B[0;1m[34mawk[39m(B[m (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[21d[36m# Convert Grades to Grade Points[39m[42m [22d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[23d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[24d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[25d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[26d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[27d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[28d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[29d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[30d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[31d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[32d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[34d[36m# Seperates gradepoints[39m[42m [35d(B[0;1m[34mawk[39m(B[m  '[32m{[39m[42m  [36d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$1[39m(B[m1,(B[0;1m[31m$1[39m(B[m3,(B[0;1m[31m$1[39m(B[m5,(B[0;1m[31m$1[39m(B[m7,(B[0;1m[31m$1[39m(B[m9[37d [32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [39d[49m[36m# Computes CGPA and counts subjects failed in[40d(B[0;1m[34mawk[39m(B[m '[32m{[42d[39m(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[41d[J[43;143H[43;1H[?1049l[?1l>]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ ls
+result_CHN1.pdf  result_CHN1.txt  script.sh  student
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ cat[1Plsnano script.sh
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;64H(B[0;7m[ Reading File ][3d(B[m[41;70H(B[0;7m 71 lines ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: script.sh                                                                             [3;1H(B[0m[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout result_CHN.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17d(B[0;1m[34mawk[39m(B[m (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[21d[36m# Convert Grades to Grade Points[39m[42m [22d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[23d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[24d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[25d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[26d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[27d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[28d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[29d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[30d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[31d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[32d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[34d[36m# Seperates gradepoints[39m[42m [35d(B[0;1m[34mawk[39m(B[m  '[32m{[39m[42m  [36d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$1[39m(B[m1,(B[0;1m[31m$1[39m(B[m3,(B[0;1m[31m$1[39m(B[m5,(B[0;1m[31m$1[39m(B[m7,(B[0;1m[31m$1[39m(B[m9[37d [32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [39d[49m[36m# Computes CGPA and counts subjects failed in[40d(B[0;1m[34mawk[39m(B[m '[32m{[42d[39m(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[6d[8d[12d[13d[18d[28d[41d[K[33d[38d[39d[40d7[3;41r8[41d[20S[1;43r[21;9Hsum [32m=[39m(B[m 0[22;9Hflag [32m=[39m(B[m 0[23;9Hfails [32m=[39m(B[m 0[24;9H[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[25;9H{[39m[42m       [26d[49m[32mif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[39m[42m [27;17H[49m[32m{[28;25H[39m(B[mflag [32m=[39m(B[m 1[29;25Hfails [32m=[39m(B[m fails + 1[30;17H[32m}[31d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[32;9H(B[0m[32m}[33d[39m(B[mcgpa [32m=[39m(B[m sum/9[34;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[39m[42m        [35;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[36;9H}[37dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[38;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[39;9H}[40d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[21d[23d[25d[28d[33d[38d[2;41r[41;1H[20S[1;43r[2;1H[K[24d[36m# adds name and roll no[25d[39m(B[mjoin students.txt  cgpa_raw.txt [32m>[39m(B[m cgpa.txt[27d[36m# Removes temperory files used to process[28d(B[0;1m[34mrm[39m(B[m result.txt[29d(B[0;1m[34mrm[39m(B[m result_cs.txt[30d(B[0;1m[34mrm[39m(B[m result_na.txt[31d(B[0;1m[34mrm[39m(B[m result_nn.txt[32d(B[0;1m[34mrm[39m(B[m gp.txt[33d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[23d[27d[28d[42d[J[43;143H[43;1H[?1049l[?1l>]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ [K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ nano d[Kstudents.txt
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;30H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3          File: students.txt                           [41;1H^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[1;62H(B[0;7mModified[3d(B[mCHN18CS080 MARGRET JAISON[4dCHN18CS082 Muhammad Jalal[5dCHN18CS083 MUNISH KUMAR[6dCHN18CS084 NAJEEB[7dCHN18CS090 NIMMY GEORGE[8dCHN18CS092 NIVEA GIGEN[9dCHN18CS093 Nivya Maria Mathew[10dCHN18CS095 PARVATHY KRISHNAN[11dCHN18CS096 PARVATHY SANTHOSH[12dCHN18CS097 Prayank P Nair[13dCHN18CS100 Remya C[14dCHN18CS101 REMYA RAVEEDRANATHAN[15dCHN18CS103 RINU ELISABATH MATHEW[16dCHN18CS104 Rojin K Sunny[17dCHN18CS108 SARATH KUMAR S[18dCHN18CS109 SAURAV K.J.[19dCHN18CS110 SEBA SUSAN MATHEW[20dCHN18CS111 SHILPA SAJAN PUNNOOSE[21dCHN18CS113 SONA SEBASTIAN[22dCHN18CS114 SOUMYAMOL S[23dCHN18CS115 SREEJITH MURALI[24dCHN18CS118 THEJUS R[25dCHN18CS120 VISHNUSS[26dCHN18CS121 VISHWANATH R ATHREY[27dCHN18CS122 VIVEK K P[40d[K[27;22H[A[A[A[AM[A[A[A[A[A[A[A[A[A[A[AP [A[A[A[A[A[A[AKUM[A[A[2;39r[2;1H[19T[1;42r[3;1HCHN18CS047 GOPIKA SURESH[4dCHN18CS048 GOPUDAS KM[5dCHN18CS049 GOVIND KARTHA[6dCHN18CS051 HABEL JAMES GEORGE[7dCHN18CS052 HARI S R[8dCHN18CS053 HELEENA ANNA VARGHESE[9dCHN18CS055 lrene Maria Zachariah[10dCHN18CS056 JALENA MATHEW[11dCHN18CS057 JEENU CHACKO[12dCHN18CS060 Jessal John Mammen[13dCHN18CS061 Jesswin W Varghese[14dCHN18CS063 Jibin Joseph[15dCHN18CS064 JISA SURENDRAN[16dCHN18CS068 Jonathan John Varghese[17dCHN18CS069 JOSHENA JOSEPH[18dCHN18CS071 JUSTIN JOSEPH[19dCHN18CS073 KAVYA M[20dCHN18CS076 KIRAN U[21dCHN18CS079 Manu Mathew[A[A[AOS[A[A[A[A[A[A[A[A[A[A[A[AE[A[A[A[2;39r[2;1H[19T[1;42r[3;1HCHN18CS002 ABHIITHP[4dCHN18CS003 ABIN BINU SAM[5dCHN18CS005 ADHIL SHAHANAD K K[6dCHN18CS006 ADWAITH SIVAN[7dCHN18CS007 Aju George Jacob[8dCHN18CS008 AKHIL RAVINDRAN[9dCHN18CS012 ALKA ANNA SABU[10dCHN18CS015 Amal Ramachandran[11dCHN18CS018 ANJANA S[12dCHN18CS023 ARAVIND R[13dCHN18CS024 ARJUN A[14dCHN18CS025 ARJUN G KRISHNA[15dCHN18CS028 ASHIK DAVID ABRAHAM[16dCHN18CS029 Ashna A[17dCHN18CS035 DEEPA MARIAM GEORGE[18dCHN18CS037 DEVIKA J[19dCHN18CS039 Emmanuel Shine Joseph[20dCHN18CS043 GEORGE MANI[21dCHN18CS046 GOPIKA PRADEEP[A[A[A[AI[A[AVI[A[A[AR [A[Ac[A[A[A[A[A[A[A[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H(B[0;7mFile Name to Write: students.txt                            [41d^G(B[m Get Help   (B[0;7mM-D(B[m DOS Format(B[0;7mM-A(B[m Append    (B[0;7mM-B(B[m Backup File[42d(B[0;7m^C(B[m Cancel     (B[0;7mM-M(B[m Mac Format(B[0;7mM-P(B[m Prepend   (B[0;7m^T(B[m To Files[40;33H[?25l[26G[39;49m(B[m[1K (B[0;7m[ Wrote 63 lines ](B[m[K[3;21H[40d[J[1;62H(B[0;7m        [42;71H(B[m[42;1H[?12l[?25h[?1049l[?1l>]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ ls
+result_CHN1.pdf  result_CHN1.txt  script.sh  students.txt
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ lsnano students.txt[3Pcript.sh
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[40;28H(B[0;7m[ Reading File ][3d(B[m[40;34H(B[0;7m 71 lines ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3           File: script.sh                             [3;1H(B[0m[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout result_CHN.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17d(B[0;1m[34mawk[39m(B[m (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[21d[36m# Convert Grades to Grade Points[39m[42m [22d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[23d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[24d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[25d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[26d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[27d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[28d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[29d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[30d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[31d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[32d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[34d[36m# Seperates gradepoints[39m[42m [35d(B[0;1m[34mawk[39m(B[m  '[32m{[39m[42m  [36d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$1[39m(B[m1,(B[0;1m[31m$1[39m(B[m3,(B[0;1m[31m$1[39m(B[m5,(B[0;1m[31m$1[39m(B[m7,(B[0;1m[31m$1[39m(B[m9[37d [32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [39d[49m[36m# Computes CGPA and counts subjects failed in[41d[39m(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Linter[3d[6d[8d[11d[12d[13d[17d[18d[22d[23d[28d[40d[K[31d[33d[38d[3;40r[40;1H[19S[1;42r[21;1H(B[0;1m[34mawk[39m(B[m '[32m{[22;9H[39m(B[msum [32m=[39m(B[m 0[23;9Hflag [32m=[39m(B[m 0[24;9Hfails [32m=[39m(B[m 0[25;9H[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[26;9H{[39m[42m       [27d[49m[32mif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[39m[42m [28;17H[49m[32m{[29;25H[39m(B[mflag [32m=[39m(B[m 1[30;25Hfails [32m=[39m(B[m fails + 1[31;17H[32m}[32d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[33;9H(B[0m[32m}[34d[39m(B[mcgpa [32m=[39m(B[m sum/9[35;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[39m[42m        [36;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[37;9H}[38dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[39;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[24d[39m(B[m[25d[26d[27d[28d[29d[34d[36d[37d[38d[39d7[2;40r8[40d[19S[1;42r[2;1H[K[21;9H[32m}[22d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[26d[36m# adds name and roll no[27d[39m(B[mjoin students.txt  cgpa_raw.txt [32m>[39m(B[m cgpa.txt[29d[36m# Removes temperory files used to process[30d(B[0;1m[34mrm[39m(B[m result.txt[31d(B[0;1m[34mrm[39m(B[m result_cs.txt[32d(B[0;1m[34mrm[39m(B[m result_na.txt[33d(B[0;1m[34mrm[39m(B[m result_nn.txt[34d(B[0;1m[34mrm[39m(B[m gp.txt[35d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[21d[25d[27d[28d[29d[30d[31d[32d[33d[34d[35d[36d[41d[J[42;71H[42;1H[?1049l[?1l>]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ cmod+[K[K[K[Khmod +nscript script[C[C[C[K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ chmod +n script[C[C[C.sh
+chmod: invalid mode: ‘+n’
+Try 'chmod --help' for more information.
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ chmod +n script.sh[1P script.shx script.sh
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ ./script.sh
+[3;J[H[2JI/O Error: Couldn't open file 'result_CHN.pdf': No such file or directory.
+grep: result_CHN.txt: No such file or directory
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ ll[Ks
+cgpa.txt  result_CHN1.pdf  result_CHN1.txt  [0m[01;32mscript.sh[0m  students.txt
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ ls./script.shchmod +x script.shn[C[C[C[C[C[C[C[C[C[C[4Pnano[C[C[C[C[C[C[C[C[C[C
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;64H(B[0;7m[ Reading File ][3d(B[m[41;70H(B[0;7m 71 lines ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: script.sh                                                                             [3;1H(B[0m[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout result_CHN.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17d(B[0;1m[34mawk[39m(B[m (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[21d[36m# Convert Grades to Grade Points[39m[42m [22d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[23d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[24d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[25d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[26d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[27d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[28d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[29d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[30d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[31d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[32d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[34d[36m# Seperates gradepoints[39m[42m [35d(B[0;1m[34mawk[39m(B[m  '[32m{[39m[42m  [36d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$1[39m(B[m1,(B[0;1m[31m$1[39m(B[m3,(B[0;1m[31m$1[39m(B[m5,(B[0;1m[31m$1[39m(B[m7,(B[0;1m[31m$1[39m(B[m9[37d [32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [39d[49m[36m# Computes CGPA and counts subjects failed in[40d(B[0;1m[34mawk[39m(B[m '[32m{[42d[39m(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[4d[5d[6d[7d[8d[9dpdftotext -layout [41d[K[9;20Hesult_CHN[1;134H(B[0;7mModified[9;29H(B[m1.pdf result_CHN.txt[9;30H[43;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano script.sh
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ nano script.sh
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[41d(B[0;7mFile script.sh is being edited (by s4c1 with nano 2.5.3, PID 5950); continue?                                                                  [42;1H Y(B[m Yes[43d(B[0;7m N(B[m No[43;17H(B[0;7m^C(B[m Cancel[41;78H[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                     New Buffer                                                                                [41;1H(B[m[K[42d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[43;1H[?1049l[?1l>[?1049h[1;24r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3                                     New Buffer                 [3;1H(B[m[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3                                     New Buffer                 [3;1H(B[m[1;33H(B[0;7mNew Buffer[1;54H          [23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[23d[J[24;80H[24;1H[?1049l[?1l>]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ nano script.sh
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[22d(B[0;7mFile script.sh is being edited (by s4c1 with nano 2.5.3, PID 5950); continue?   [23;1H Y(B[m Yes[24d(B[0;7m N(B[m No[24;17H(B[0;7m^C(B[m Cancel[22;78H[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                New Buffer                                      [22;1H(B[m[K[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[1;71H(B[0;7mModified[4d(B[m# adds name and roll no[5djoin students.txt  cgpa_raw.txt > cgpa.txt[7d# Removes temperory files used to process[8drm result.txt[9drm result_cs.txt[10drm result_na.txt[11drm result_nn.txt[12drm gp.txt[13drm cgpa_raw.txt[10d[A[A[Ape[4d[A[2;21r[2;1H[10T[1;24r[3;9Hcgpa = sum/9[4;9Hif (flag == 0) {[5;17Hprintf("%s %0.2f\n",$1,cgpa)[6;9H}[7dif (flag == 1) {[8;17Hprintf("%s failed in %d\n",$1,fails)[9;9H}[10d}' gp.txt > cgpa_raw.txt[12d[A[10;16H[9;10H[A[7;16H[6;10H[A[3;16H[2;22r[2;1H[10T[1;24r[3;9Hfails = 0[4;9Hfor(var =2; var<=NF; var++)[5;9H{[6;17Hif($var == 0)[7;17H{[8;25Hflag = 1[9;25Hfails = fails + 1[10;17H}[11dsum += $var[12;9H}[A[A[A[7d[A[A{[4;16H[A[2;21r[2;1H[10T[1;24r[4;1H# Seperates gradepoints[5dawk  '{[6d print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19[7d }' result.txt > gp.txt[9d# Computes CGPA and counts subjects failed in[10dawk '{[11d  sum = 0[12;9Hflag = 0[10;7H[8d[7;16H[4d[2;21r[2;1H[10T[1;24r[3;1Hsed -i 's/(A+)/ 9/g' result.txt[4dsed -i 's/(A)/ 8.5/g' result.txt[5dsed -i 's/(B+)/ 8/g' result.txt[6dsed -i 's/(B)/ 7/g' result.txt[7dsed -i 's/(C)/ 6/g' result.txt[8dsed -i 's/(P)/ 5/g' result.txt[9dsed -i 's/(F)/ 0/g' result.txt[10dsed -i 's/(FE)/ 0/g' result.txt[11dsed -i 's/(I)/ 0/g' result.txt[12dsed -i 's/(Absent)/ 0/g' result.txt[11;16H[A[A[A[6d[A[A[A[2;21r[2;1H[10T[1;24r[4;1H# Cleans up and arranges the data in organised manner[5dtr  '\n' ' ' < result_cs.txt > result_nn.txt[6dsed 's/\t//g' result_nn.txt > result_na.txt[7dawk '{$1=$1;print}' result_na.txt > result_nn.txt[8dsed 's/CHN/\nCHN/g' result_nn.txt > result_na.txt[9dtr  ',' ' ' < result_na.txt > result.txt[11d# Convert Grades to Grade Points[12dsed -i 's/(O)/ 10/g' result.txt[12;16H[10d[9;16H[A[A[A[A[A[A[2;21r[2;1H[10T[1;24r[3;1H#!/bin/bash[5d# Clears current screen[6dclear[8d# Coverts .pdf to .txt[9dpdftotext -layout result_CHN.pdf result_CHN.txt[11d# Separates out results of CS students[12dgrep --no-group-separator -A3 "CHN18CS" result_CHN.txt > result_cs.txt[11;16H[A[8;16H[A[6;6H[5;16H[A[3;12H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H[J[24;80H[24;1H[?1049l[?1l>]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ nano script.sh
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[22d(B[0;7mFile script.sh is being edited (by s4c1 with nano 2.5.3, PID 5950); continue?   [23;1H Y(B[m Yes[24d(B[0;7m N(B[m No[24;17H(B[0;7m^C(B[m Cancel[22;78H[?25l[22;32H[1K (B[0;7m[ Reading File ](B[m[K[3d[22;32H(B[0;7m[ Read 71 lines[3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: script.sh                                   [3;1H(B[0m[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout result_CHN.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17d(B[0;1m[34mawk[39m(B[m (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[21d[36m# Convert Grades to Grade Points[39m[42m [23d[49m(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[3d[4d[5d[6d[7d[8d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22d[K[8;22H[C[9dpd[10d[11d[C[A[Apdftotext -layout result_CHN[1;71H(B[0;7mModified[9;29H(B[m1.pdf result_CHN.txt[9;30H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: script.sh                               [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;30H[?25l[C[39;49m(B[m[1K (B[0;7m[ Wrote 71 lines ](B[m[K[9;30H[22d[J[1;71H(B[0;7m        [24;80H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ nano script.shls[K./script.shchmod +x script.sh
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ chmod +x script.sh[4Pnano[C[C[C[C[C[C[C[C[C[Cls[K./script.sh
+[3;J[H[2J]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ [K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s1[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s1[00m$ cd ..
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ mkdir s2
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ cd s2
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ cat>stdent.[K[K[K[K[Kudent.txt
+^C
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ history
+    1  sudo apt update
+    2  exit
+    3  mkdir ceccs18c37
+    4  cd ceccs18c37
+    5  ping 192.168.0.30
+    6  rmdir ceccs18c37
+    7  mkdir ceccs18c37
+    8  cd ceccs18c37
+    9  mkdir ceccs18c37
+   10  rmdir ceccs18c37
+   11  ls
+   12  cat>abc.txt
+   13  ls -a
+   14  ls -r
+   15  ls -s
+   16  sort 
+   17  cat>test.txt
+   18  paste abc.txt test.txt
+   19  cat>test.txt
+   20  cat abc.txt /grep apple
+   21  cat abc.txt |grep apple
+   22  sort -r
+   23  cat abc.txt | grep -v p| sort -r
+   24  cat abc.txt | sort -r
+   25  exit script
+   26  git init
+   27  git remote add origin https://github.com/ceccs18c37/cs232
+   28  git add . 
+   29  git commit  -m
+   30  git commit  -m "initialize"
+   31  exit
+   32  ping 192.168.0.2
+   33  mkdir 2701
+   34  cd 2701
+   35  script work.txt
+   36  mkdir ceccs18c37
+   37  cd ceccs18c37
+   38  mkdir cs232
+   39  script work.txt
+   40  git
+   41  cd ceccs18c37 
+   42  git init
+   43  git pull
+   44  git remote add origin https://github.com/ceccs18c37/cs232
+   45  git add 2701
+   46  git add .
+   47  git commit  -m "initialize"
+   48  git push
+   49  git push -u origin master
+   50  git
+   51  ls
+   52  is
+   53  ls
+   54  ls -a
+   55  grep alka
+   56  grep alka work.txt
+   57  grep -c work.txt
+   58  grep -c alka work.txt
+   59  grep -n alka work.txt
+   60  grep -o alka work.txt
+   61  grep -w alka work.txt
+   62  grep -v alka work.txt
+   63  h
+   64  grep -h alka work.txt
+   65  grep -l alka work.txt
+   66  grep -i alka work.txt
+   67  grep -f alka work.txt
+   68  grep -f file alka work.txt
+   69  sort work.txt
+   70  cat>abc.txt
+   71  sort abc.txt> sort.txt
+   72  cat abc.txt
+   73  cat sort.txt
+   74  sort abc.txt> sort.txt
+   75  cat abc.txt
+   76  cat sort.txt
+   77  sort -m abc.txt> sort.txt
+   78  cat abc.txt
+   79  cat sort.txt
+   80  sort -M abc.txt> sort.txt
+   81  cat abc.txt
+   82  cat sort.txt
+   83  sort -r abc.txt> sort.txt
+   84  cat abc.txt
+   85  cat sort.txt
+   86  sort -M -r abc.txt> sort.txt
+   87  cat abc.txt
+   88  cat sort.txt
+   89  sort abc.txt> sort.txt
+   90  cat abc.txt
+   91  cat sort.txt
+   92  sort -u abc.txt> sort.txt
+   93  cat abc.txt
+   94  sort -u abc.txt> sort.txt
+   95  cat abc.txt
+   96  cat sort.txt
+   97  sort abc.txt> sort.txt
+   98  cat abc.txt
+   99  cat sort.txt
+  100  sort -t abc.txt> sort.txt
+  101  sort -t SEP abc.txt> sort.txt
+  102  sort -b SEP abc.txt> sort.txt
+  103  sort -b abc.txt> sort.txt
+  104  cat abc.txt
+  105  cat sort.txt
+  106  cut january abc.txt
+  107  cut -b january abc.txt
+  108  cut -b 1-3 abc.txt
+  109  cut -b 1-5 abc.txt
+  110  cut -b 1-3,5,7 abc.txt
+  111  cut -b 1-3,5-7 abc.txt
+  112  paste abc.txt xyz.txt
+  113  ls
+  114  cat>xyz.txt
+  115  paste abc.txt xyz.txt
+  116  cat xyz.txt
+  117  exit
+  118  ls
+  119  mkdir ceccs18c07
+  120  ls
+  121  cd ceccs18c07
+  122  mkdir cs232
+  123  cd cs232
+  124  mkdir 3101
+  125  cd 3101
+  126  script work.txt
+  127  cat>report.txt
+  128  sftp cs18c07@192.168.0.30
+  129  sftp ceccs18c37@192.168.0.30
+  130  sftp cs18c37@192.168.0.30
+  131  cd ceccs18c37
+  132  cd 2701
+  133  sftp cs18c37@192.168.0.30
+  134  cd ceccs18c37
+  135  exit 2701
+  136  sftp cs18c37@192.168.0.30
+  137  cd ceccs18c37
+  138  cd cs232
+  139  mkdir 0302
+  140  cd 0302
+  141  ifconfig
+  142  ifconfig -a
+  143  route -n
+  144  route add default gw 192.168.1.10
+  145  ping 192.168.1.10
+  146  cat/etc/resolv.conf
+  147  cd ceccs18c37
+  148  cd cs232
+  149  cd 0302
+  150  script work.txt
+  151  ifconfig
+  152  ifconfig -a
+  153  route
+  154  route -n
+  155  route add default gw 192.168.0.2
+  156  ping 192.168.0.2
+  157  cat /etc/resolv.conf
+  158  ssh cs18c37@192.168.0.30
+  159  cat>abc.txt
+  160  scp abc.txt cs18c37@192.168.0.30 : 0302
+  161  scp abc.txt cs18c37@192.168.0.30:0302
+  162  rsync -av abc.txt
+  163  exit script
+  164  sftp 
+  165  sftp cs18c37@192.168.0.30
+  166  sftp
+  167  sftp cs18c37
+  168  sftp cs18c37@192.168.0.30
+  169  ifconfig -a
+  170  route -n
+  171  route add defalt gw 192.168.0.20
+  172  route add defalt gw 192.168.0.30
+  173  ping 192.168.0.1
+  174  cat /etc/resolve.conf
+  175  ifconfig 
+  176  iwconfig 
+  177  ifdown
+  178  exit
+  179  echo "nameserver 1.1.1.1'>>resolve.conf
+  180  echo "nameserver 1.1.1.1">>resolve.conf
+  181  echo "nameserver 1.1.1.1">>resolv.conf
+  182  sftp cs18c07@192.168.0.30
+  183  exit
+  184  cd ceccs18c07
+  185  cd cs232
+  186  mkdir 0702
+  187  cd 0702
+  188  pwd
+  189  cat>xyz.txt
+  190  pwd
+  191  sftp cs18c07@192.168.0.30
+  192  ssh
+  193  sftp cs18c07@192.168.0.30
+  194  sftp cs18c07@14.139.189.217
+  195  ssh cs18c07@192.168.0.30
+  196  ifconfig -a
+  197  script work1.txt
+  198  script -a work.txt
+  199  cat>report.txt
+  200  pwd
+  201  sftp cs18c07@192.168.0.30
+  202  exit
+  203  cd ceccs18c37
+  204  cd cs232
+  205  mkdir 1002
+  206  cd 1002
+  207  script work.txt
+  208  nano script.sh
+  209  chmod +X script.sh
+  210  nano script.sh
+  211  chmod +X script.sh
+  212  ./script.sh
+  213  ./ script.sh
+  214  nano script.sh
+  215  chmod 777 script.sh
+  216  ./script.sh
+  217  nano script.sh
+  218  cd s2
+  219  chmod 777 script.sh
+  220  ./script.sh
+  221  nano script.sh
+  222  ls
+  223  cat script.sh
+  224  cd 1002
+  225  cd-
+  226  cd
+  227  cd ceccs18c37
+  228  cd cs232
+  229  sftp cs18c37@192.168.0.30
+  230  exit script
+  231  git pull
+  232  git add -A
+  233  cd ..
+  234  rsync -av 1002/ cs18c37@192.168.0.30:1002
+  235  sftp cs18c37@192.168.0.30
+  236  ssh cs18c07@192.168.0.30
+  237  exit
+  238  ls
+  239  cd ceccs18c07
+  240  cd cs232
+  241  mkdir 1702
+  242  cd1702
+  243  cd 1702
+  244  script work.txt
+  245  exit
+  246  cd ceccs18c07
+  247  cd cs232
+  248  cd1702
+  249  cd 1702
+  250  script -a work.txt
+  251  exit
+  252  gedit index.html
+  253  ssh cs18c07@192.168.0.30
+  254  ssh cs18c07@192.168.0.30 
+  255  rsync cs18c07@192.168.0.30
+  256  rsync --version
+  257  ssh cs18c07@192.168.0.30
+  258  pwd
+  259  cd cs232
+  260  cd ..
+  261  rsync -a 1702 cs18c07@192.168.0.30:xyz
+  262  ssh cs18c07@192.168.0.30
+  263  scp cs18c07@192.168.0.30
+  264  cd 1702
+  265  cat> abc.txt
+  266  scp abc.txt cs18c07@192.168.0.30:xyz
+  267  ssh cs18c07@192.168.0.30
+  268  cat>report.txt
+  269  exit
+  270  cd ceccs18c07
+  271  cd cs232
+  272  mkdir 1702
+  273  cd 1702
+  274  script work.txt
+  275  sftp cs18c07@192.168.0.30
+  276  exit
+  277  cd ceccs18c37
+  278  cd cs232
+  279  mkdir 2402
+  280  cd 2402
+  281  script work.txt
+  282  sftp cs18c37@192.168.0.30
+  283  cd ..
+  284  sftp cs18c37@192.168.0.30
+  285  cd 2701
+  286  sftp cs18c37@192.168.0.30
+  287  cd ..
+  288  sftp cs18c37@192.168.0.30
+  289  ifconfig
+  290  sftp cs18c37@192.168.0.30
+  291  exit script
+  292  sftp cs18c37@192.168.0.30
+  293  git init
+  294  git add index.html
+  295  git init
+  296  cd ceccs18c37/cs232/
+  297  git status
+  298  ls
+  299  cd .
+  300  cd ..
+  301  ls
+  302  git clone https://github.com/ceccs18c37/cs232
+  303  cd cs232/
+  304  ls
+  305  touch a.txt
+  306  git status
+  307  git add .
+  308  git commit -m "added test file"
+  309  git config --global user.email "mathewmanu019@gmail.com"
+  310  git config --global user.name "ceccs18c37"
+  311  git push origin master
+  312  git commit -m "added test file"
+  313  git push origin master
+  314  rm a.txt
+  315  git add .
+  316  git commit -m "test"
+  317  git push origin master
+  318  cd cec18c07
+  319  cd ceccs1807
+  320  ceccs18c07
+  321  cd cec18c07
+  322  sftp cs18c07@192.168.0.30
+  323  sftp cs18c@192.168.0.30
+  324  sftp cs18c07@192.168.0.30
+  325  ifconfig
+  326  ssh ask@192.168.0.30
+  327  sftp cs18c07@192.168.0.30
+  328  mkdir s1
+  329  cd s1
+  330  cat>student
+  331  pdftotext layout result_CHN(1) result_CHN(1)
+  332  pdftotext layout result_CHN(1).pdf result_CHN(1).txt
+  333  pdftotext layout result_CHN1.pdf result_CHN1.txt
+  334  pdftotext -layout result_CHN1.pdf result_CHN1.txt
+  335  nanoscript.sh
+  336  nano script.sh
+  337  ls
+  338  nano script.sh
+  339  nano students.txt
+  340  ls
+  341  nano script.sh
+  342  chmod +n script.sh
+  343  chmod +x script.sh
+  344  ./script.sh
+  345  ls
+  346  nano script.sh
+  347  chmod +x script.sh
+  348  ./script.sh
+  349  cd ..
+  350  mkdir s2
+  351  cd s2
+  352  cat>student.txt
+  353  history
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ [K]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ historycat>student.txtd s2[K[3@mkdir[C[C[C[3Pcd .../script.shchmod +x script.sh[4Pnano[C[C[C[C[C[C[C[C[C[Cls[K./script.shchmod +x script.shn[C[C[C[C[C[C[C[C[C[C[4Pnano[C[C[C[C[C[C[C[C[C[Cls[Knano students.txt[3Pcript.shls[Knano script.sh[1Pscript.shpdftotext -layout result_CHN1.pdf result_CHN1.txt[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt2.txt
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ ls
+result_CHN2.pdf  result_CHN2.txt  student.txt
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ nanaoi[K[K[Ko script.sh
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;66H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: script.sh                                                                             [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[1;134H(B[0;7mModified[3;9H(B[msum [32m=[39m(B[m 0[4;9Hflag [32m=[39m(B[m 0[5;9Hfails [32m=[39m(B[m 0[6;9H[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[7;9H{[39m[42m       [8d[49m[32mif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[39m[42m [9;17H[49m[32m{[10;25H[39m(B[mflag [32m=[39m(B[m 1[11;25Hfails [32m=[39m(B[m fails + 1[12;17H[32m}[13d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[14;9H(B[0m[32m}[15d[39m(B[mcgpa [32m=[39m(B[m sum/9[16;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[39m[42m        [17;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[18;9H}[19dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[20;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[21;9H}[22d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[26d[36m# adds name and roll no[27d[39m(B[mjoin students.txt  cgpa_raw.txt [32m>[39m(B[m cgpa.txt[29d[36m# Removes temperory files used to process[30d(B[0;1m[34mrm[39m(B[m result.txt[31d(B[0;1m[34mrm[39m(B[m result_cs.txt[32d(B[0;1m[34mrm[39m(B[m result_na.txt[33d(B[0;1m[34mrm[39m(B[m result_nn.txt[34d(B[0;1m[34mrm[39m(B[m gp.txt[35d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[41d[K[35;16H[34;10H[33;16H[A[A[A[29;16H[A[27;16H[A[A[A[A[22;16H[21;10H[A[19;16H[18;10H[A[16;16H[A[14;10H[A[A[A[A[A[A[A[C[6;16H[A[A[A[2;40r[2;1H[20T[1;43r[3;1H[36m# Convert Grades to Grade Points[39m[42m [4d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[5d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[6d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[7d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[8d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[9d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[10d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[11d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[12d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[13d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[14d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[16d[36m# Seperates gradepoints[39m[42m [17d(B[0;1m[34mawk[39m(B[m  '[32m{[39m[42m  [18d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$1[39m(B[m1,(B[0;1m[31m$1[39m(B[m3,(B[0;1m[31m$1[39m(B[m5,(B[0;1m[31m$1[39m(B[m7,(B[0;1m[31m$1[39m(B[m9[19d [32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [21d[49m[36m# Computes CGPA and counts subjects failed in[22d(B[0;1m[34mawk[39m(B[m '[32m{[39m(B[m[21;16H[A[19;16H[A[17;10H[16;16H[A[14;16H[A[A[A[A[A[A[A[A[A[A[A[2;40r[2;1H[18T[1;43r[3;1H[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout result_CHN.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17d(B[0;1m[34mawk[39m(B[m (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[20d[19;16H[A[A[A[A[A[A[12;16H[A[A[9;16H[A[A[6;6H[5;16H[A[3;12H[4d[5;16H[6;6H[7d[8;16H[9dut result_CHN2.pdf result_CHN.txt[9;30H[41d(B[0;7mFile Name to Write: script.sh                                                                                                                  [42;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[42;57H(B[0;7mM-A(B[m Append[18X[42;85H(B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[43;57H(B[0;7mM-P(B[m Prepend[17X[43;85H(B[0;7m^T(B[m To Files[K[41;30H(B[0;7my(B[m(B[0;7m (B[m[?25l[41;62H[39;49m(B[m[1K (B[0;7m[ Wrote 71 lines ](B[m[K[9;30H[?12l[?25h[1;134H(B[0;7m        [42;16H^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[9;30H[41d[J[43;143H[43;1H[?1049l[?1l>]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ chmod +x script.sh
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ ./script.sh
+[3;J[H[2Jjoin: students.txt: No such file or directory
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ ls
+cgpa.txt  result_CHN2.pdf  result_CHN2.txt  result_CHN.txt  [0m[01;32mscript.sh[0m  student.txt
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ ls./script.shchmod +x script.sh[4Pnano[C[C[C[C[C[C[C[C[C[C
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;64H(B[0;7m[ Reading File ][3d(B[m[41;70H(B[0;7m 71 lines ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: script.sh                                                                             [3;1H(B[0m[36m#!/bin/bash[5d# Clears current screen[6d[39m(B[mclear[8d[36m# Coverts .pdf to .txt[9d[39m(B[mpdftotext -layout result_CHN2.pdf result_CHN.txt[11d[36m# Separates out results of CS students[12d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[14d[36m# Cleans up and arranges the data in organised manner[15d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[16d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[17d(B[0;1m[34mawk[39m(B[m (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[18d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[19dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[21d[36m# Convert Grades to Grade Points[39m[42m [22d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[23d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[24d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[25d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[26d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[27d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[28d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[29d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[30d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[31d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[32d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[34d[36m# Seperates gradepoints[39m[42m [35d(B[0;1m[34mawk[39m(B[m  '[32m{[39m[42m  [36d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$1[39m(B[m1,(B[0;1m[31m$1[39m(B[m3,(B[0;1m[31m$1[39m(B[m5,(B[0;1m[31m$1[39m(B[m7,(B[0;1m[31m$1[39m(B[m9[37d [32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [39d[49m[36m# Computes CGPA and counts subjects failed in[40d(B[0;1m[34mawk[39m(B[m '[32m{[42d[39m(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[6d[7d[8d[9d[10d[11d[13d[18d[23d[26d[28d[41d[K[32d[33d[36d[37d[38d[3;41r[41;1H[20S[1;43r[21;9Hsum [32m=[39m(B[m 0[22;9Hflag [32m=[39m(B[m 0[23;9Hfails [32m=[39m(B[m 0[24;9H[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[25;9H{[39m[42m       [26d[49m[32mif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[39m[42m [27;17H[49m[32m{[28;25H[39m(B[mflag [32m=[39m(B[m 1[29;25Hfails [32m=[39m(B[m fails + 1[30;17H[32m}[31d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[32;9H(B[0m[32m}[33d[39m(B[mcgpa [32m=[39m(B[m sum/9[34;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[39m[42m        [35;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[36;9H}[37dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[38;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[39;9H}[40d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[21d[23d[28d[33d[38d[2;41r[41;1H[20S[1;43r[2;1H[K[24d[36m# adds name and roll no[25d[39m(B[mjoin students.txt  cgpa_raw.txt [32m>[39m(B[m cgpa.txt[27d[36m# Removes temperory files used to process[28d(B[0;1m[34mrm[39m(B[m result.txt[29d(B[0;1m[34mrm[39m(B[m result_cs.txt[30d(B[0;1m[34mrm[39m(B[m result_na.txt[31d(B[0;1m[34mrm[39m(B[m result_nn.txt[32d(B[0;1m[34mrm[39m(B[m gp.txt[33d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[23d[24d[25djoin students[1;134H(B[0;7mModified[25;13H(B[m[1P[41d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                   [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [43;16H (B[0;7m^C(B[m Cancel[K[41;62H(B[0;7mFile Name to Write: script.sh                               [42d^G(B[m Get Help[42;29H(B[0;7mM-D(B[m DOS Format[42;57H(B[0;7mM-A(B[m Append[42;85H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G            (B[0;7mM-M(B[m Mac Format[43;57H(B[0;7mM-P(B[m Prepend[43;85H(B[0;7m^T(B[m To Files[41;30H[?25l[41;62H[39;49m(B[m[1K (B[0;7m[ Wrote 71 lines ](B[m[K[25;13H[41d[J[1;134H(B[0;7m        [43;143H(B[m[43;1H[?12l[?25h[?1049l[?1l>]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ nano script.shls[K./script.shchmod +x script.sh
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ chmod +x script.sh[4Pnano[C[C[C[C[C[C[C[C[C[Cls[K./script.sh
+[3;J[H[2J]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802/s2[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802/s2[00m$ cd ..
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ cat report.txt
+cat: report.txt: No such file or directory
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ cat> report.txt
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A                                                    ^C
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ exit
+exit
+There are stopped jobs.
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ st[Kftp cs18c07@192.1698.0.30
+ssh: Could not resolve hostname 192.1698.0.30: Temporary failure in name resolution
+Couldn't read packet: Connection reset by peer
+]0;s4c1@cec-Veriton-Series: ~/ceccs18c07/cs232/2802[01;32ms4c1@cec-Veriton-Series[00m:[01;34m~/ceccs18c07/cs232/2802[00m$ sftp cs18c07@192.1698.0.30[1P8.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c07@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> mkdir 2802
+sftp> cd2802 28022802
+sftp> put [Ktsftp> pu[K[K[Kput [K[K[Kls
+sftp> put -r s1
+Uploading s1/ to /home/cs18c07/2802/s1
+Entering s1/
+s1/cgpa1.txt                           0%    0     0.0KB/s   --:-- ETAs1/cgpa1.txt                         100% 2146     2.1KB/s   00:00    
+s1/result_CHN1.txt                     0%    0     0.0KB/s   --:-- ETAs1/result_CHN1.txt                   100%   46KB  46.1KB/s   00:00    
+s1/result_CHN1.pdf                     0%    0     0.0KB/s   --:-- ETAs1/result_CHN1.pdf                   100%   28KB  27.5KB/s   00:00    
+s1/script1.sh                          0%    0     0.0KB/s   --:-- ETAs1/script1.sh                        100% 1551     1.5KB/s   00:00    
+s1/students1.txt                       0%    0     0.0KB/s   --:-- ETAs1/students1.txt                     100% 1677     1.6KB/s   00:00    
+sftp> pu[K[Kls
+s1  
+sftp> put s[K-r s2
+Uploading s2/ to /home/cs18c07/2802/s2
+Entering s2/
+s2/student2.txt                        0%    0     0.0KB/s   --:-- ETAs2/student2.txt                      100% 1677     1.6KB/s   00:00    
+s2/result_CHN2.txt                     0%    0     0.0KB/s   --:-- ETAs2/result_CHN2.txt                   100%   43KB  43.5KB/s   00:00    
+s2/script2.sh                          0%    0     0.0KB/s   --:-- ETAs2/script2.sh                        100% 1550     1.5KB/s   00:00    
+s2/cgpa2.txt                           0%    0     0.0KB/s   --:-- ETAs2/cgpa2.txt                         100% 2174     2.1KB/s   00:00    
+s2/result_CHN2.pdf                     0%    0     0.0KB/s   --:-- ETAs2/result_CHN2.pdf                   100%   26KB  26.4KB/s   00:00    
+sftp> c[Kput -4[KR .
+Uploading ./ to /home/cs18c07/2802/.
+Entering ./
+./work.txt                             0%    0     0.0KB/s   --:-- ETA./work.txt                           100%   72KB  72.0KB/s   00:00    
+./report.txt                           0%    0     0.0KB/s   --:-- ETA./report.txt                         100% 1026     1.0KB/s   00:00    
+Entering ./s1
+./s1/cgpa1.txt                         0%    0     0.0KB/s   --:-- ETA./s1/cgpa1.txt                       100% 2146     2.1KB/s   00:00    
+./s1/result_CHN1.txt                   0%    0     0.0KB/s   --:-- ETA./s1/result_CHN1.txt                 100%   46KB  46.1KB/s   00:00    
+./s1/result_CHN1.pdf                   0%    0     0.0KB/s   --:-- ETA./s1/result_CHN1.pdf                 100%   28KB  27.5KB/s   00:00    
+./s1/script1.sh                        0%    0     0.0KB/s   --:--

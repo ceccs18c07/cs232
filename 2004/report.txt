@@ -1,0 +1,61 @@
+CEC CS 18 C07
+Alka Anna Sabu
+
+--------------------------------
+#1: Perl [t8(2)]
+---------------------------------
+
+
+---------------------------------
+
+Program name:
+---------------
+
+        1.Program to add two numbers
+          add.pl
+
+        2.Program to check whether a number is odd or even
+          odd.pl
+
+        3.Program to check whether a number is prime or not
+          prime.pl
+--------------------------------
+Output: 
+
+        1.The output of add.p1
+ 
+            Enter the first number
+            2
+            Enter the second number
+            4
+
+            The result is 6
+
+        
+         2.The output of odd.pl
+
+            Enter the number:5
+
+            5 is odd
+
+
+            Enter the number:4
+
+            4 is even
+
+
+        3.The output of prime.pl
+
+           Enter the number
+           4
+
+           The number is not prime
+
+           
+           Enter the number
+           5
+
+           The number is prime     
+
+-------------------------------------------               
+-------------------------------------------

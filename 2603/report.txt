@@ -1,0 +1,34 @@
+CEC CS 18 c07
+Alka Anna Sabu
+
+--------------------------------
+#1: Setting up http and ftp server
+---------------------------------
+Command/Shell script/Program name
+ 
+sudo apt-get update
+sudo apt-get install vsftpd
+sudo gedit /etc/vsftpd.conf
+
+---------------------------------
+
+
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+ftp server set up in 192 168.43.128
+A image image.jpg was uploaded(I am uploading the photo instead of screenshort)
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+

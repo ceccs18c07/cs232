@@ -1,0 +1,86 @@
+CEC CS 18 C07
+Alka Anna Sabu
+
+--------------------------------
+#1: linux Installation[t6]
+---------------------------------
+Command/Shell script/Program name
+
+
+    Successfullt installed Linux mint
+---------------------------------
+
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+    Screenshots of the installation is also uploaded with this report.txt
+
+-----------------------------
+
+-------------------------------------
+-------------------------------------
+
+
+#2:LAMP Stack [t8(3)]
+---------------------------------
+Command/Shell script/Program name
+
+
+
+    sudo apt update     #To update list
+
+    
+    sudo apt-get install apache2       #To install apache2  
+	
+    
+    sudo service apache2 start     #To start apache2  
+
+	
+    sudo apt-get install mysql-server      #To install mysql  
+
+
+    sudo service mysql start       #To start mysql  
+
+
+    sudo apt install php libapache2-mod-php php-mysql      #PHP installation
+
+
+    nano info.php     #To create PHP file info  
+
+
+    nano index.php        #To create PHP file index  
+
+
+    http://localhost/info.php or 192.168.43.95/info.php         #PHP version viewed through 
+    http://localhost/index.php or 192.168.43.128/index.php  
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+
+	#php file
+
+	    info.php
+	
+        index.php
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+     
+    #info.php 
+
+        Screenshot is attached (info.png)
+
+    #index.php 
+  
+        Screenshot is attached (index.png)
+         
+          
+          
+ 
+

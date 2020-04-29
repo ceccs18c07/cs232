@@ -1,0 +1,384 @@
+Script started on 2020-04-29 20:26:23+0530
+]0;alka@my-computer: ~/ceccs18c07/cs232/2904[01;32malka@my-computer[00m:[01;34m~/ceccs18c07/cs232/2904[00m$ [K]0;alka@my-computer: ~/ceccs18c07/cs232/2904[01;32malka@my-computer[00m:[01;34m~/ceccs18c07/cs232/2904[00m$ su[Kysconf1[K[K[K[K[K[K[K[Knanao[K[Ko sysconf1.sh
+[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                  sysconf1.sh                                                                            [1;168H(B[m[38d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[38;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-▲(B[m Previous[39d(B[0;7m^X(B[m Exit[39;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Linter    (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[39;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next(B[0;7mM-▼(B[m Next[37d[3d[39;49m(B[m[?12l[?25h[?25l[1;160H(B[0;7mModified(B[m[3d[36m#!/bin/bash[4d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The currently logged user is        : $USER\n"[5d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current login name is           : $LOGNAME\n"[6d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current shell[19X[6;50H: $SHELL\n"[7d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The current home directory          : $HOME\n"[8d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m" \n The operating system type           :"[9d[39m(B[muname -o[10d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The current path setting             :$PATH\n"[11d[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The current working directory        :"[12d[39m(B[mpwd[13d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The number of users currently logged :"[14d[39m(B[mwho[37d[K[14;4H[?12l[?25h[?25l[38;17H[26X[38;43H(B[0;7mM-D(B[m DOS Format[18X[38;81H    (B[0;7mM-A(B[m Append          [38;113H[14X[38;127H(B[0;7mM-B(B[m Backup File[K[39;2H(B[0;7mC(B[m Cancel[17G[26X[39;43H(B[0;7mM-M(B[m Mac Format[28X[39;85H(B[0;7mM-P(B[m Prepend         [39;113H[14X[39;127H(B[0;7m^T(B[m To Files[K[37d(B[0;7mFile Name to Write: sysconf1.sh                                                                                                                                          [37;1H(B[m[37;32H[?12l[?25h[?25l[K[1;168H[1;160H(B[0;7m        (B[m[37;76H(B[0;7m[ Wrote 12 lines ](B[m[38;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[38;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-▲(B[m Previous[39;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Linter    (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[39;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next(B[0;7mM-▼(B[m Next[37d[14;4H[?12l[?25h[?25l[37d[J[39;169H[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>]0;alka@my-computer: ~/ceccs18c07/cs232/2904[01;32malka@my-computer[00m:[01;34m~/ceccs18c07/cs232/2904[00m$ bash nano sysconf1.shscript-a work.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbash sysconf1.sh
+ 
+ The currently logged user is        : alka
+
+ 
+ The current login name is           : alka
+
+ 
+ The current shell                   : /bin/bash
+
+ 
+ The current home directory          : /home/alka
+
+ 
+ The operating system type           :
+GNU/Linux
+
+ The current path setting             :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+
+ The current working directory        :
+/home/alka/ceccs18c07/cs232/2904
+
+ The number of users currently logged :
+alka     tty7         2020-04-29 19:35 (:0)
+]0;alka@my-computer: ~/ceccs18c07/cs232/2904[01;32malka@my-computer[00m:[01;34m~/ceccs18c07/cs232/2904[00m$ bash sysconf1.shnano[C[C[C[C[C[C[C[C[C[C[C[C[1P.sh2.sh
+[?1049h[22;0;0t[1;39r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[37;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                                  sysconf2.sh                                                                            [1;168H(B[m[38d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[38;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-▲(B[m Previous[39d(B[0;7m^X(B[m Exit[39;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Linter    (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[39;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next(B[0;7mM-▼(B[m Next[37d[3d[39;49m(B[m[?12l[?25h[?25l[1;160H(B[0;7mModified(B[m[3d[36m#!/bin/bash[4d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n The operating system version,release number  :\n"[5d[34mcat[39m(B[m /etc/os-release[6d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n OPerating system kernel version[14X[6;58H:\n"[7d[39m(B[muname [32m-r[8d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n All available shells[25X[8;58H:\n"[9d[34mcat[39m(B[m /etc/shells[10d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n CPU information[30X[10;58H:\n"[11d[34mcat[39m(B[m /proc/cpuinfo[12d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n Memory information[27X[12;58H:\n"[13d[34mcat[39m(B[m /proc/meminfo[14d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n Hard disk information[25X[14;59H:\n"[15d[39m(B[mdf -h[16d(B[0;1m[34mecho[39m(B[m [32m-e[39m(B[m (B[0;1m[33m"\n File system (Mounted)[24X[16;58H:\n"[17d[39m(B[mmount [32m|[39m(B[m column -t[37d[K[19d[?12l[?25h[?25l[38;17H[26X[38;43H(B[0;7mM-D(B[m DOS Format[18X[38;81H    (B[0;7mM-A(B[m Append          [38;113H[14X[38;127H(B[0;7mM-B(B[m Backup File[K[39;2H(B[0;7mC(B[m Cancel[17G[26X[39;43H(B[0;7mM-M(B[m Mac Format[28X[39;85H(B[0;7mM-P(B[m Prepend         [39;113H[14X[39;127H(B[0;7m^T(B[m To Files[K[37d(B[0;7mFile Name to Write: sysconf2.sh                                                                                                                                          [37;1H(B[m[37;32H[?12l[?25h[?25l[K[1;168H[1;160H(B[0;7m        (B[m[37;76H(B[0;7m[ Wrote 17 lines ](B[m[38;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[38;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-▲(B[m Previous[39;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Linter    (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[39;113H(B[0;7mM-6(B[m Copy Text   (B[0;7mM-W(B[m WhereIs Next(B[0;7mM-▼(B[m Next[37d[19d[?12l[?25h[?25l[37d[J[39;169H[?12l[?25h[39;1H[?1049l[23;0;0t[?1l>]0;alka@my-computer: ~/ceccs18c07/cs232/2904[01;32malka@my-computer[00m:[01;34m~/ceccs18c07/cs232/2904[00m$ nano sysconf2.shbash sysconf1.sh[1P.sh2.sh
+
+ The operating system version,release number  :
+
+NAME="Linux Mint"
+VERSION="19.3 (Tricia)"
+ID=linuxmint
+ID_LIKE=ubuntu
+PRETTY_NAME="Linux Mint 19.3"
+VERSION_ID="19.3"
+HOME_URL="https://www.linuxmint.com/"
+SUPPORT_URL="https://forums.ubuntu.com/"
+BUG_REPORT_URL="http://linuxmint-troubleshooting-guide.readthedocs.io/en/latest/"
+PRIVACY_POLICY_URL="https://www.linuxmint.com/"
+VERSION_CODENAME=tricia
+UBUNTU_CODENAME=bionic
+
+ OPerating system kernel version              :
+
+5.0.0-32-generic
+
+ All available shells                         :
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+ CPU information                              :
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0x96
+cpu MHz		: 1149.760
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3600.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0x96
+cpu MHz		: 1429.185
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3600.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0x96
+cpu MHz		: 961.059
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3600.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0x96
+cpu MHz		: 1402.789
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3600.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0x96
+cpu MHz		: 1153.725
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3600.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0x96
+cpu MHz		: 1011.467
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3600.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0x96
+cpu MHz		: 989.968
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3600.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+stepping	: 10
+microcode	: 0x96
+cpu MHz		: 887.322
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3600.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+
+ Memory information                           :
+
+MemTotal:        3942816 kB
+MemFree:         1680256 kB
+MemAvailable:    2288612 kB
+Buffers:           98856 kB
+Cached:           838992 kB
+SwapCached:            0 kB
+Active:          1405912 kB
+Inactive:         494500 kB
+Active(anon):    1059816 kB
+Inactive(anon):    67440 kB
+Active(file):     346096 kB
+Inactive(file):   427060 kB
+Unevictable:       95316 kB
+Mlocked:              32 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:              1492 kB
+Writeback:             0 kB
+AnonPages:       1058168 kB
+Mapped:           362864 kB
+Shmem:            164688 kB
+KReclaimable:      85836 kB
+Slab:             133748 kB
+SReclaimable:      85836 kB
+SUnreclaim:        47912 kB
+KernelStack:       12020 kB
+PageTables:        39000 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     4068556 kB
+Committed_AS:    4682900 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+Percpu:             2272 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      175732 kB
+DirectMap2M:     2877440 kB
+DirectMap1G:     1048576 kB
+
+ Hard disk information                         :
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           386M  1.4M  384M   1% /run
+/dev/sda4        98G  8.0G   85G   9% /
+tmpfs           1.9G   49M  1.9G   3% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/sda1       256M   35M  222M  14% /boot/efi
+tmpfs           386M   32K  386M   1% /run/user/1000
+
+ File system (Mounted)                        :
+
+sysfs       on  /sys                             type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+proc        on  /proc                            type  proc             (rw,nosuid,nodev,noexec,relatime)
+udev        on  /dev                             type  devtmpfs         (rw,nosuid,relatime,size=1936024k,nr_inodes=484006,mode=755)
+devpts      on  /dev/pts                         type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs       on  /run                             type  tmpfs            (rw,nosuid,noexec,relatime,size=394284k,mode=755)
+/dev/sda4   on  /                                type  ext4             (rw,relatime,errors=remount-ro)
+securityfs  on  /sys/kernel/security             type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+tmpfs       on  /dev/shm                         type  tmpfs            (rw,nosuid,nodev)
+tmpfs       on  /run/lock                        type  tmpfs            (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs       on  /sys/fs/cgroup                   type  tmpfs            (ro,nosuid,nodev,noexec,mode=755)
+cgroup      on  /sys/fs/cgroup/unified           type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup      on  /sys/fs/cgroup/systemd           type  cgroup           (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore      on  /sys/fs/pstore                   type  pstore           (rw,nosuid,nodev,noexec,relatime)
+efivarfs    on  /sys/firmware/efi/efivars        type  efivarfs         (rw,nosuid,nodev,noexec,relatime)
+cgroup      on  /sys/fs/cgroup/memory            type  cgroup           (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup      on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup           (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup      on  /sys/fs/cgroup/hugetlb           type  cgroup           (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup      on  /sys/fs/cgroup/cpuset            type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup      on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup      on  /sys/fs/cgroup/freezer           type  cgroup           (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup      on  /sys/fs/cgroup/devices           type  cgroup           (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup      on  /sys/fs/cgroup/pids              type  cgroup           (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup      on  /sys/fs/cgroup/perf_event        type  cgroup           (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup      on  /sys/fs/cgroup/blkio             type  cgroup           (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup      on  /sys/fs/cgroup/rdma              type  cgroup           (rw,nosuid,nodev,noexec,relatime,rdma)
+systemd-1   on  /proc/sys/fs/binfmt_misc         type  autofs           (rw,relatime,fd=34,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=691)
+mqueue      on  /dev/mqueue                      type  mqueue           (rw,relatime)
+debugfs     on  /sys/kernel/debug                type  debugfs          (rw,relatime)
+hugetlbfs   on  /dev/hugepages                   type  hugetlbfs        (rw,relatime,pagesize=2M)
+configfs    on  /sys/kernel/config               type  configfs         (rw,relatime)
+fusectl     on  /sys/fs/fuse/connections         type  fusectl          (rw,relatime)
+/dev/sda1   on  /boot/efi                        type  vfat             (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)
+tmpfs       on  /run/user/1000                   type  tmpfs            (rw,nosuid,nodev,relatime,size=394280k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse  on  /run/user/1000/gvfs              type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+]0;alka@my-computer: ~/ceccs18c07/cs232/2904[01;32malka@my-computer[00m:[01;34m~/ceccs18c07/cs232/2904[00m$ cat re[K[K>report.txtx[K
+exit    ^C
+]0;alka@my-computer: ~/ceccs18c07/cs232/2904[01;32malka@my-computer[00m:[01;34m~/ceccs18c07/cs232/2904[00m$ exit
+exit
+
+Script done on 2020-04-29 20:29:37+0530

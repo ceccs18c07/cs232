@@ -1,0 +1,97 @@
+CEC CS 18 C07
+Alka Anna Sabu
+
+--------------------------------
+#1: Package Management {t8(1)}
+---------------------------------
+Command/Shell script/Program name
+
+
+	sudo apt-get update     #To update the local cache
+
+	sudo apt install synaptic      #To install synaptic package
+
+	sudo apt-get remove synaptic    #To remove synaptic package
+    
+    sudo apt install apache2      #To install apache2 
+
+	sudo apt-get remove apache2   #To remove apache2
+
+    sudo apt list > process.txt     #To list out all the packages that has been installed
+
+
+---------------------------------
+
+
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+package.txt     #List of all the packages that have been installed
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2: Kernel Compilation {t8(4)
+---------------------------------
+Command/Shell script/Program name
+
+  
+
+    wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.xz    #To download the latest stable kernel 
+	
+    
+    unxz -v linux-5.5.9.tar.xz     #To extract the source code
+	
+
+    wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.sign    #To download the PGP Signature for kernel
+	
+
+    gpg --verify linux-5.5.9.tar.sign    #To verify the kernel tartball with GnuPG
+	
+
+    tar xvf linux-5.5.9.tar     #To extract the tartball
+	
+    
+    cd linux-5.5.9
+
+
+	cp -v /boot/config-$(uname -r) .config  #To create the configuration file
+
+
+    sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev   #To  install development tools required to compile the kernel
+	
+
+    make -j $(nproc)  #To compile the Kernel
+
+---------------------------------
+
+
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+    scrnshot.png contains the screenshot of the files that are compiled
+
+	Compiled kernel is at /linux-5.5.9
+-------------------
+Remarks if any:
+
+          Kernel files couldn't be uploaded since files are too large.
+
+ 
+
+
+-------------------------------------
+-------------------------------------
+
+
+
+

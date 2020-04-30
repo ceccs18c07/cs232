@@ -1,0 +1,35 @@
+CEC CS 18 C07  
+Alka Anna Sabu
+
+--------------------------------
+#1: Shell script to implement a menu driven calculator(s6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	calculator.sh #Shell script used
+
+
+Input:
+---------------
+
+	two numbers(12 and 5) 
+
+--------------------------------
+Output: 
+
+
+	The various operation are done and the corresponding output is obtained.
+
+	1.png and 2.png  both screenshots shows the various operations performed with the 2 numbers.
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
